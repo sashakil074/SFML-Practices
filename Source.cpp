@@ -1,3 +1,4 @@
+/*
 #include <SFML/Graphics.hpp>
 #include<SFML/Window.hpp>
 #include<SFML/System.hpp>
@@ -6,6 +7,7 @@ using namespace sf;
 int main()
 {
     RenderWindow window(VideoMode(1280, 720), "SFML works!");
+    window.setFramerateLimit(60);
     CircleShape circle(50.f);
     circle.setFillColor(Color::Green);
 
@@ -25,3 +27,4 @@ int main()
 
     return 0;
 }
+*/
